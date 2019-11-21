@@ -2,13 +2,7 @@
  scripts for cf-carrier study
 
 The following files contain the pseudo code and R code that can be used to duplicate the findings of our 
-paper "Carriers of cystic fibrosis". The Truven Marketscan Research databases can be purchased from IBM 
-Watson Health. These databases are delivered as a series of SAS data files. At the University of Iowa,
-these data are then converted to a relational database which is stored on a local drive. Because this 
-data and computing structure is specific to the University or Iowa, we have provided the psuedo code 
-(i.e., extraction procedures) that would need to be used to extract the same datasets from the raw Truven 
-Marketscan files. We have noted what data the extracted files should contain.
-
+paper "Cystic-fibrosis carriers are at risk for a wide range of cystic fibrosis-related conditions". The Truven Marketscan Research databases can be purchased from IBM Watson Health. These databases are delivered as a series of SAS data files. At the University of Iowa these data are then converted to a relational database which is stored on a local drive accessible within our High Performance Computing environment. Because this data and computing structure is specific to the University or Iowa, we have provided the psuedo code (i.e., extraction procedures) that would need to be used to extract the same datasets from the raw Truven Marketscan files. We have noted what data the extracted files should contain.
 
 Below is a brief summary of the file structure. The R scripts are located in two primary folders. The 
 scripts folder contains the scripts for 
